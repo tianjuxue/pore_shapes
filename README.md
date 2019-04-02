@@ -1,1 +1,1 @@
-# pore_shapes
+plot cellular solids with different pore shapes
