@@ -1,14 +1,9 @@
 import numpy as np
 import math
+import matplotlib.pyplot as plt
 from matplotlib import pyplot
-import matplotlib
 from matplotlib.patches import Circle, Wedge, Polygon
 from matplotlib.collections import PatchCollection
-import matplotlib.pyplot as plt
-from matplotlib.patches import Circle, Wedge, Polygon
-from matplotlib.collections import PatchCollection
-import matplotlib.pyplot as plt
-
 
 def build_base_pore(coords_fn, n_points):
     thetas = [float(i) * 2 * math.pi / n_points for i in range(n_points)]
@@ -33,7 +28,7 @@ if __name__ == '__main__':
     c1 = -0.2
     c2 = 0.2
     pore_radial_resolution = 120
-    n_cells = 1
+    n_cells = 3
     patches = []
     colors = []
 
